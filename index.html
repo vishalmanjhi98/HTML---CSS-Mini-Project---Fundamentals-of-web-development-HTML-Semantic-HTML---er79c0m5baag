@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="utils.css" />
   </head>
   <body>
-    
-      <div class="whole">
-        <div class="row-buttons">
-          <button class="button">AC</button>
-          <button class="button">+/-</button>
-          <button class="button">%</button>
-          <button class="button">÷</button>
-        </div>
-        <div class="row-buttons">
-          <button class="button">7</button>
-          <button class="button">8</button>
-          <button class="button">9</button>
-          <button class="button">X</button>
-        </div>
-        <div class="row-buttons">
-          <button class="button">4</button>
-          <button class="button">5</button>
-          <button class="button">6</button>
-          <button class="button">-</button>
-        </div>
-        <div class="row-buttons">
-          <button class="button">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
-          <button class="button">+</button>
-        </div>
-        <div class="row-buttons">
-          <button class="button">0</button>
-          <button class="button">.</button>
-          <button class="button">=</button>
-        </div>
+    <h1 class="text-center">Calculator</h1>
+    <div class="container flex-direction items-center mx-auto m-w-20 flex">
+      <div class="row">
+        <input class="input" type="text" />
       </div>
+      <div class="row">
+        <button class="button">AC</button>
+        <button class="button">C</button>
+        <button class="button">%</button>
+        <button class="button">*</button>
+      </div>
+      <div class="row">
+        <button class="button">7</button>
+        <button class="button">8</button>
+        <button class="button">9</button>
+        <button class="button">+</button>
+      </div>
+      <div class="row">
+        <button class="button">4</button>
+        <button class="button">5</button>
+        <button class="button">6</button>
+        <button class="button">/</button>
+      </div>
+      <div class="row">
+        <button class="button">1</button>
+        <button class="button">2</button>
+        <button class="button">3</button>
+        <button class="button">-</button>
+      </div>
+      <div class="row">
+        <button class="button">.</button>
+        <button class="button">0</button>
+        <button id="equal" class="button">=</button>
+      </div>
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>

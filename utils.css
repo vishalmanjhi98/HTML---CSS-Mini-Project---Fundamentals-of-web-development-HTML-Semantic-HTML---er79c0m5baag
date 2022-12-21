@@ -1,0 +1,28 @@
+.text-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+.m-w-20 {
+  max-width: 25vw;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items {
+  align-items: center;
+}
+#equal {
+  width: 130px;
+}
